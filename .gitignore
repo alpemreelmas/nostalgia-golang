@@ -1,0 +1,36 @@
+# Go build files
+/bin/
+/obj/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Vendor directory
+/vendor/
+
+# Test binary, build output and test coverage files
+*.test
+*.out
+*.cover
+
+# IDE files
+*.idea/
+*.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Go module files
+go.sum
+
+# Environment variables
+.env
+
+# Other files
+*.log
+*.tmp
